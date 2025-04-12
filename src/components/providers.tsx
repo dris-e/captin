@@ -1,6 +1,8 @@
-import { ReactFlowProvider } from "react-flow-renderer";
+import { ReactFlowProvider } from "@xyflow/react";
 
 export default function Providers({ children }: { children: React.ReactNode }) {
-  return <ReactFlowProvider>{children}</ReactFlowProvider>;
+  return (
+      <ReactFlowProvider>{children}</ReactFlowProvider>
+  );
 }
 
